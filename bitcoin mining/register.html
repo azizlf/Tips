@@ -1,0 +1,113 @@
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./static/css/register.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+        <link rel="stylesheet" href="./static/css/responsive-register.css">
+        <title>Bitcoin Mining - Register</title>
+    </head>
+
+    <body>
+
+
+        <div class="register-page">
+
+            <div class="header-reg-page">
+                <div class="title">
+                    <p class="first-section">Bitcoin</p>
+                    <p class="second-section">Mining</p>
+                </div>
+            </div>
+
+            <div class="container">
+
+                <div class="form" id="form">
+
+                    <div class="names">
+
+                        <div class="name">
+                            <label>First name</label>
+                            <br>
+                            <input type="text" id="fname" placeholder="First name">
+                        </div>
+
+                        <div class="name">
+                            <label>Last name</label>
+                            <br>
+                            <input type="text" id="lname" placeholder="Last name">
+                        </div>
+
+                    </div>
+
+                    <div class="input">
+                        <label>Username</label>
+                        <br>
+                        <input type="text" id="username" placeholder="Username">
+                    </div>
+
+                    <div class="input">
+                        <label>Email</label>
+                        <br>
+                        <input type="text" id="email" placeholder="Email">
+                    </div>
+
+                    <div class="input">
+                        <label>Password</label>
+                        <br>
+                        <input type="Password" id="password" placeholder="password">
+                    </div>
+
+                    <div class="input">
+                        <label>Confirm Password</label>
+                        <br>
+                        <input type="password" id="confirmPassword" placeholder="Confirm Password">
+                    </div>
+                    <div class="secure-account">
+
+                        <div class="item">
+                            <label>Question ?</label>
+                            <br>
+                            <input type="text" id="question" placeholder="Secure question ?">
+                        </div>
+
+                        <div class="item">
+                            <label>Answer</label>
+                            <br>
+                            <input type="text" id="answer" placeholder="Answer">
+                        </div>
+
+                    </div>
+
+                    <div class="confirm-condition">
+                        <i class="fa-solid fa-check"></i>I confirm<p class="link">
+                            Terms and Conditions</p>of use.
+                    </div>
+
+                    <button id="registerBtn">Register</button>
+
+                </div>
+
+                <div class="done-msg-box" id="doneMsgBox">
+                    <div>
+                        <div class="icon"><i class="fa-solid fa-check"></i></div>
+                        <p class="title">Thank You!</p>
+                        <p class="message">Your details has been successfully submited</p>
+                        <button id="return-to-login">Return to Login</button>
+                    </div>
+                </div>
+
+            </div>
+            <div id="msgBoxError"></div>
+        </div>
+
+       
+
+
+        <script src="./static/js/register.js"></script>
+
+    </body>
+
+</html>
