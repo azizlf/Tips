@@ -1,0 +1,69 @@
+.main .register-form{
+
+    width: 90%;
+    text-align: center;
+    display: none;
+
+}
+.main .register-form input{
+
+    width: 100%;
+    padding: 5% 3%;
+    border: 1px solid white;
+    border-radius: 3px;
+    font-size: 16px;
+    margin-top: 3%;
+    margin-bottom: 7%;
+    background-color: transparent;
+    color: white;
+
+}
+
+.main .register-form label{
+
+    font-size: 20px;
+    float: left;
+    color: white;
+
+}
+
+.main .register-form .forget-btn{
+
+    font-size: 16px;
+    color: red;
+    cursor: pointer;
+    float: left;
+    text-decoration: underline;
+
+}
+
+.main .register-form button{
+
+    width: 65%;
+    padding: 5% 0;
+    background-color: red;
+    color: white;
+    cursor: pointer;
+    font-size: 17px;
+    border: none;
+    border-radius: 100px;
+    margin-top: 10%;
+
+}
+
+.main .register-form .to-register-btn{
+
+    font-size: 17px;
+    margin-top: 8%;
+    color: white;
+
+}
+
+.main .register-form .to-register-btn span{
+
+    text-decoration: underline;
+    color: red;
+    cursor: pointer;
+    margin-left: 5%;
+
+}

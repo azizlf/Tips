@@ -1,0 +1,36 @@
+.home{
+
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    display: none;
+    align-items: center;
+    justify-content: center;
+
+}
+.home div{
+
+    text-align: center;
+
+}
+
+.home div h1{
+
+    font-size: 35px;
+    margin-bottom: 3%;
+
+}
+
+.home div button{
+
+    width: 200px;
+    padding: 16px 0;
+    cursor: pointer;
+    background-color: red;
+    color: white;
+    border-radius: 100px;
+    border: none;
+    font-size: 15px;
+    margin-top: 10%;
+
+}
