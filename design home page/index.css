@@ -1,0 +1,305 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url("./image2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+
+.main{
+
+    width: 100%;
+    height: 100%;
+    background-color: #000000a6;
+
+}
+
+.main .header-mobile{
+    display: none;
+}
+
+.main .menu-mobile{
+    display: none;
+}
+
+
+.main .header{
+
+    width: 100%;
+    height: 13%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.main .header div{
+
+    width: 40%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+
+}
+
+.main .header .icons{justify-content: left;}
+
+.main .header .icons div{
+
+    justify-content: space-around;    
+
+}
+
+.main .header .icons div i{
+
+    font-size: 1.3vw;
+    width: 17%;
+    padding: 4.3% 0;
+    border-radius: 5vw;
+    border: .1vw solid white;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: .3s;
+    cursor: pointer;
+
+}
+
+.main .header .icons div i.fa-facebook-f:hover{
+
+    border-color: #085ea3;
+    background-color: #085ea3;
+    color: white;
+
+}
+
+.main .header .icons div i.fa-twitter:hover{
+
+    border-color: #0e8cf1;
+    background-color: #0e8cf1;
+    color: white;
+
+}
+
+.main .header .icons div i.fa-linkedin-in:hover{
+
+    border-color: #1c72b7;
+    background-color: #1c72b7;
+    color: white;
+
+}
+
+.main .header .icons div i.fa-instagram:hover{
+
+    border-color: #e91e63;
+    background-image: linear-gradient(141deg, #f44336, #9c27b0);
+    color: white;
+
+}
+
+.main .header .contact{
+    justify-content: right;
+}
+
+.main .header .contact p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2vw;
+    margin-left: 6%;
+}
+
+.main .header .contact p i{
+
+    font-size: 1.3vw;
+    margin-right: 3%;
+    color: white;
+
+}
+
+.main .menu{
+
+    width: 100%;
+    height: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 1%;
+
+}
+
+.main .menu div{
+
+    width: 40%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    color: white;
+
+}
+
+.main .menu .logo{
+
+    justify-content: left;
+    font-size: 3vw;
+
+}
+
+.main .menu .logo i{
+
+    color: #F44336;
+    margin-right: 5%;
+
+}
+
+.main .menu .menu-items{
+
+    justify-content: space-between;
+    font-size: 1.3vw;
+    position: relative;
+    
+}
+
+.main .menu .menu-items p{
+    cursor: pointer;
+    transition: .4s;
+}
+
+.main .menu .menu-items p:hover{
+
+    color: #F44336;
+
+}
+
+.main .menu .menu-items p.active{
+
+    color: #F44336;
+
+}
+
+.main .menu .menu-items .search-box{
+
+    position: absolute;
+    background-color: transparent;
+    width: 9%;
+    height: 70%;
+    right: -3%;
+    border-radius: 10vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    transition: .4s;
+    pointer-events: none;
+
+}
+
+.main .menu .menu-items .search-box p{
+
+    background-color: #f44336;
+    color: white;
+    width: 1.5%;
+    padding: 1.3%;
+    border-radius: 5vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    right: 3.5%;
+    opacity: 0;
+    pointer-events: none;
+
+}
+
+.main .menu .menu-items .search-box p:hover{
+    color: white;
+}
+
+
+.main .menu .menu-items .search-box input{
+
+    width: 87%;
+    padding: 5%;
+    font-size: 1.1vw;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    opacity: 0;
+
+}
+
+.main .title{
+
+    width: 100%;
+    text-align: center;
+    height: 15%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 6vw;
+    margin-top: 3%;
+
+}
+
+.main .description{
+
+    width: 100%;
+    text-align: center;
+    height: 3%;
+    color: #F44336;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2.6vw;
+    margin-top: 5%;
+    font-weight: 600;
+
+}
+
+.main .buttons{
+
+    width: 100%;
+    height: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5%;
+
+}
+
+.main .buttons button{
+
+    padding: 1.3%;
+    border-radius: 5vw;
+    width: 13%;
+    margin-right: 3%;
+    font-size: 1.3vw;
+    border: none;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: .4s;
+    border: .2vw solid #F44336;
+    background-color: #F44336;
+    color: white;
+
+}
+
+
+.main .buttons button.works-btn{
+
+    background-color: #0000006e;
+    color: #F44336;
+
+}

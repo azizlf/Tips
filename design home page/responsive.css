@@ -1,0 +1,167 @@
+@media only screen and (max-width:480px) {
+    
+    .main .menu{
+
+        display: none;
+
+    }
+
+    .main .header-mobile .logo{
+
+        justify-content: left;
+        font-size: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: white;
+        margin-left: 5%;
+    
+    }
+    
+    .main .header-mobile .logo i{
+    
+        color: #F44336;
+        margin-right: 15%;
+    
+    }
+
+    .main .title{
+
+        font-size: 37px;
+        margin-top: 23%;
+
+    }
+
+    .main .description{
+
+        font-size: 18px;
+
+    }
+    
+    .main .buttons{
+
+        display: block;
+        text-align: center;
+        margin-top: 15%;
+
+    }
+
+    .main .buttons button{
+
+        margin-bottom: 8%;
+        font-size: 15px;
+        width: 50%;
+        padding: 4%;
+        border-radius: 100px;
+
+    }
+
+    .main .header{
+
+        opacity: 0;
+        pointer-events: none;
+
+    }
+
+    .main .header-mobile{
+
+        width: 100%;
+        height: 10%;
+        position: absolute;
+        top: 0;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+    }
+
+    .main .header-mobile i{
+
+        margin-right: 5%;
+        font-size: 25px;
+        color: white;
+
+    }
+
+    .main .menu-mobile{
+
+        opacity: 0;
+        pointer-events: none;
+        display: block;
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        background-color: #F44336;
+        z-index: 2;
+        top: 0;
+        transition: .4s;
+    }
+    
+    .main .menu-mobile .nav-bar{
+
+        width: 100%;
+        height: 10%;
+        display: flex;
+        align-items: center;
+        justify-content: right;
+
+    }
+
+    .main .menu-mobile .nav-bar i{
+
+        margin-right: 5%;
+        font-size: 25px;
+        color: white;
+
+    }
+
+    .main .menu-mobile .list{
+
+        width: 100%;
+        overflow: hidden;
+
+    }
+
+    .main .menu-mobile .list p{
+
+        padding: 10% 4%;
+        font-size: 20px;
+        color: white;
+        text-align: center;
+        font-weight: 600;
+
+    }
+
+    .main .menu-mobile .icons{
+
+        margin-top: 14%;
+        width: 100%;
+        height: 10%;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+
+    }
+
+    .main .menu-mobile .icons i{
+
+        font-size: 20px;
+        width: 14.5%;
+        padding: 4.3% 0;
+        border-radius: 100px;
+        border: .1vw solid white;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transition: .3s;
+
+    }
+
+    .main .menu-mobile .icons i:active{
+
+        background-color: white;
+        color: black;
+
+    }
+}
