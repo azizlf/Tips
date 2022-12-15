@@ -1,0 +1,271 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+
+    font-family: "arial";
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    width: 100%;
+    height: 100%;
+
+}
+
+.container{
+
+    width: 80%;
+    height: 60%;
+    display: -webkit-box;
+    overflow-x: hidden;
+    position: relative;
+
+}
+
+.container .card-container{
+
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.container .card-container .card{
+
+    width: 24%;
+    height: 97%;
+    background-color: white;
+    border-radius: .5vw;
+    position: relative;
+    margin: 2.5%;
+
+}
+
+.container .card-container .card::before{
+
+    content:"";
+    width: 100%;
+    height: 30%;
+    position: absolute;
+    background-image: linear-gradient(to left, #e91e63, #ff5722);
+    border-top-left-radius: .5vw;
+    border-top-right-radius: .5vw;
+
+}
+
+.container .card-container .card .background-card{
+
+    width: 100%;
+    height: 30%;
+    background-color: darkred;
+    position: absolute;
+    top: 0%;
+    z-index: 0;
+
+
+}
+
+.container .card-container .card .social-icons{
+
+    display: block;
+    position: absolute;
+    top: 3%;
+    right: 5%;
+    font-size: 1.3vw;
+
+}
+
+.container .card-container .card .social-icons .icon{
+
+    width: 100%;
+    height: 5%;
+
+}
+
+.container .card-container .card .social-icons .icon:hover .hint{
+
+    opacity: 1;
+    left: 160%;
+
+}
+
+.container .card-container .card .social-icons .icon .hint{
+
+    background-image: linear-gradient(to left, #e91e63, #ff5722);    position: absolute;
+    left: 200%;
+    width: 500%;
+    height: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -230%;
+    opacity: 0;
+    pointer-events: none;
+    transition: .4s;
+    z-index: 5;
+
+}
+
+.container .card-container .card .social-icons .icon .hint p{
+
+    z-index: 5;
+    color: white;
+    position: absolute;
+    font-size: 1.2vw;
+
+}
+
+.container .card-container .card .social-icons .icon .hint::before{
+
+    content: "";
+    width: 20%;
+    height: 55%;
+    background-color: #ff5722;
+    position: absolute;
+    top: 20%;
+    left: -7%;
+    transform: rotateZ(45deg);
+
+
+}
+
+.container .card-container .card .social-icons .icon i{
+
+    margin-bottom: 100%;
+    color: white;
+    cursor: pointer;
+
+}
+
+.container .card-container .card .image{
+
+    width: 100%;
+    height: 57%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+.container .card-container .card .image div{
+
+    width: 50%;
+    background-color: white;
+    border-radius: 5vw;
+    padding: 2%;
+    z-index: 3;
+
+}
+
+.container .card-container .card .image div img{
+
+    width: 100%;
+    border-radius: 5vw;
+
+}
+
+.container .card-container .card .details{
+
+    width: 100%;
+    height: 20%;
+    text-align: center;
+    margin-top: -10%;
+    cursor: default;
+
+}
+
+.container .card-container .card .details .name{
+
+    font-size: 1.5vw;
+    color: #ff5722;
+    font-weight: bold;
+
+}
+
+.container .card-container .card .details .job{
+
+    font-size: 1.2vw;
+    color: black;
+    margin-top: 5%;
+
+}
+
+
+.container .card-container .card .rate{
+
+    width: 100%;
+    height: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -4%;
+    cursor: default;
+
+}
+
+.container .card-container .card .button{
+
+    width: 100%;
+    height: 16%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.container .card-container .card .button button{
+
+    width: 50%;
+    height: 70%;
+    font-size: 1.2vw;
+    cursor: pointer;
+    background-image: linear-gradient(to left, #e91e63, #ff5722);
+    border: none;
+    outline: none;
+    border-radius: .3vw;
+    transition: .2s;
+    color: white;
+    margin-top: 8%;
+
+}
+
+.arrow-left{
+
+    width: 3%;
+    padding: .5% 0;
+    color: #FF5722;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    z-index: 2;
+    left: 5%;
+    top: 44%;
+    font-size: 4vw;
+    cursor: pointer;
+
+}
+
+.arrow-right{
+
+    width: 3%;
+    padding: .5% 0;
+    color: #FF5722;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    z-index: 2;
+    right: 5%;
+    top: 44%;
+    border-radius: 5vw;
+    font-size: 4vw;
+    cursor: pointer;
+
+}
