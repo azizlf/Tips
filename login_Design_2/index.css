@@ -1,0 +1,266 @@
+:root{
+
+	--primary:#e91e63;
+	--secondary: #3f51b5;
+}
+
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+
+body{
+
+	font-family: "arial";
+	background-image: linear-gradient(88deg, #e91e63, #3f51b5);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+}
+
+
+.login-page{
+
+	width: 90%;
+	height: 90%;
+	background-color: white;
+	border-radius: .7vw;
+	display: flex;
+	align-items: center;
+	overflow: hidden;
+
+}
+
+
+
+.login-page .login-form{
+
+	width: 30%;
+	height: 100%;
+	background-color: whitesmoke;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+}
+
+
+.login-page .login-form div{
+
+	width: 80%;
+	text-align: center;
+
+}
+
+.login-page .login-form div #inputs{
+
+	width: 100%;
+
+}
+
+.login-page .login-form div #inputs .input{
+
+	width: 100%;
+	height: 8%;
+	border: .1vw solid black;
+	border-radius: .5vw;
+	position: relative;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-bottom: 15%;
+
+}
+
+.login-page .login-form div #inputs .input label{
+
+	position: absolute;
+	background-color: whitesmoke;
+	top: -20%;
+	left: 8%;
+	padding:0 3% 0 3%;
+	font-size: 1.3vw;
+
+}
+
+.login-page .login-form div #inputs .input input{
+
+
+	width: 100%;
+	height: 100%;
+	border: none;
+	outline: none;
+	padding: 7%;
+	font-size: 1.1vw;
+	border-radius: 5vw;
+	background-color: transparent;
+
+}
+
+.login-page .login-form div .forget-password{
+
+	text-decoration: underline;
+	color: var(--secondary);
+	float: left;
+	font-size: 1.3vw;
+	margin: 8% 0 5% 0;
+	cursor: pointer;
+
+}
+
+.login-page .login-form div button{
+
+	width:100%;
+	padding: 5%;
+	font-size: 1.3vw;
+	background-color: #ed0051;
+	color: white;
+	border: none;
+	outline: none;
+	border-radius: .5vw;
+	margin-top: -5%;
+	cursor: pointer;
+
+}
+
+
+
+.login-page .login-form .sign-in-with{
+
+	width: 100%;
+	height: 9%;
+	margin-top: 6%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+}
+
+
+.login-page .login-form .sign-in-with div{
+
+	width: 100%;
+	height: 100%;
+	border-radius: .5vw;
+	display: flex;
+	align-items: center;
+	padding: 0 3%;
+	cursor: pointer;
+	background-color: #006cc2;
+
+}
+
+.login-page .login-form .sign-in-with p{
+
+	text-decoration: none;
+	color: blue;
+	margin: 0 0 0 -4%;
+	font-size: 1.4vw;
+	color: black;
+	text-align: left;
+	color: white;
+	width: 70%;
+	text-align: center;
+	font-weight: bold;
+
+}
+
+.login-page .login-form .sign-in-with div.github{
+
+	background-color: black;
+
+}
+
+.login-page .login-form .sign-in-with i{
+
+
+	color: white;
+	font-size: 2.5vw;
+	margin-left: 5%;
+
+}
+
+
+.login-page .login-form .hr{
+
+	width: 100%;
+	height: 5%;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+
+}
+
+.login-page .login-form .hr p{
+
+	margin: 0;
+	text-decoration: none;
+	color: black;
+	font-size: 1.5vw;
+
+}
+
+
+.login-page .login-form .hr div{
+
+	padding: .1%;
+	background-color: black;
+	width: 42%;
+
+}
+
+.login-page .cover{
+
+	width: 70%;
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-image: url("cover.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+
+}
+
+.login-page .cover .content{
+
+	text-align: center;
+
+}
+
+.login-page .cover .content .text{
+
+	font-size: 4vw;
+	color: #FFC107;
+	font-weight: bold;
+
+}
+
+.login-page .cover .content button{
+
+	width: 30%;
+	padding: 2%;
+	font-size: 1.3vw;
+	background-color: #ed0051;
+	color: white;
+	border: none;
+	outline: none;
+	border-radius: .5vw;
+	margin-top: 3%;
+	cursor: pointer;
+
+}
+
+::-moz-selection { 
+  color: white;
+  background: #FFC107;
+}
+
+::selection {
+  color: white;
+  background: #FFC107;
+}
