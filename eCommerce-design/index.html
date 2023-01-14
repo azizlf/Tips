@@ -1,0 +1,330 @@
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="./index.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<title>E-Commerce Website</title>
+</head>
+<body>
+
+
+	<div class="main">
+			
+		<div class="header">
+			
+			<div class="icons">
+				<div class="icon">
+					<i class="fa-brands fa-facebook-f"></i>
+					<div class="hint"><p>Facebook</p></div>
+				</div>
+				<div class="icon">
+					<i class="fa-brands fa-twitter"></i>
+					<div class="hint"><p>Twitter</p></div>
+
+				</div>
+				<div class="icon">
+					<i class="fa-brands fa-whatsapp"></i>
+					<div class="hint"><p>Whatsapp</p></div>
+				</div>
+			</div>
+
+			<div class="giveaway-text" id="adBox">FREE SHIPPING THIS WEEK ORDER OVER - $55</div>
+
+			<div class="language-text">
+				<p><i class="fa-solid fa-globe"></i>&nbsp;&nbsp;English</p>
+				<i class="fa-solid fa-caret-down"></i>
+				<div class="list">
+					<p>English</p>
+					<p>Français</p>
+				</div>
+			</div>
+
+		</div>
+
+		<div class="search-box">
+			<p class="brand-name">Brand Name</p>
+			<div class="search">
+				<input type="" placeholder="search">
+				<i class="fa-solid fa-magnifying-glass"></i>
+			</div>
+			<div class="icons">
+				<div class="icon">
+					<i class="fa-regular fa-user"></i>
+				</div>
+			</div>
+		</div>
+
+		<div class="home">
+			
+			<div class="menu">
+				<div class="list">
+					<div><span>Home</span></div>
+					<div><span>Categories</span>
+						<div class="popover">
+							<div class="cat-item">
+								<div class="cat"><i class="fa-solid fa-headphones"></i><p>Accessoires</p></div>
+								<div class="cat"><i class="fa-solid fa-shirt"></i><p>Fashion</p></div>
+								<div class="cat"><i class="fa-solid fa-house"></i><p>Home</p></div>
+							</div>
+							<div class="cat-item">
+								<div class="cat"><i class="fa-solid fa-baseball-bat-ball"></i><p>Sports</p></div>
+								<div class="cat"><i class="fa-solid fa-heart-pulse"></i><p>Health</p></div>
+								<div class="cat"><i class="fa-solid fa-suitcase-medical"></i><p>Medical</p></div>
+							</div>
+							<div class="cat-item">
+								<div class="cat"><i class="fa-solid fa-children"></i><p>Children</p></div>
+								<div class="cat"><i class="fa-solid fa-mobile-screen-button"></i><p>Electronics</p></div>
+								<div class="cat"><i class="fa-solid fa-ellipsis"></i><p>Other</p></div>
+							</div>
+						</div>
+					</div>
+					<div><span>Blog</span></div>
+					<div><span>Offers</span></div>
+				</div>
+			</div>
+
+			<div class="slider-home-page">
+				<div class="slider-content" id="sliderContent1">
+					<img src="./el-sl-img-1.png" alt="">
+					<div class="description">
+						<p class="title">Sale Offer</p>
+						<p class="desc-title">New Fashion Summer Sale</p>
+						<p class="details">Starting at $29.99</p>
+						<button>SHOP NOW</button>
+					</div>
+				</div>
+				<div class="slider-content" id="sliderContent2">
+					<img src="./el-sl-img-2.png" alt="">
+					<div class="description">
+						<p class="title">Sale Offer</p>
+						<p class="desc-title">New Accessoires Sale</p>
+						<p class="details">Starting at $29.99</p>
+						<button>SHOP NOW</button>
+					</div>
+				</div>
+				<div class="slider-content" id="sliderContent3">
+					<img src="./phone.webp" alt="">
+					<div class="description">
+						<p class="title">Sale Offer</p>
+						<p class="desc-title">New Electronics Sale</p>
+						<p class="details">Starting at $29.99</p>
+						<button>SHOP NOW</button>
+					</div>
+				</div>
+
+				<div class="slider-controls">
+					<div class="active" id="sliderservice1" onclick="slideAction(this.id)"></div>
+					<div id="sliderservice2" onclick="slideAction(this.id)"></div>
+					<div id="sliderservice3" onclick="slideAction(this.id)"></div>
+				</div>
+
+			</div>
+		</div>
+
+		<div class="categories">
+			<div class="list">
+				<div class="categorie-item">
+					<i class="fa-solid fa-shirt"></i>
+					<p>Fashion</p>
+				</div>
+				<div class="categorie-item">
+					<i class="fa-solid fa-heart-pulse"></i>
+					<p>Health</p>
+				</div>
+				<div class="categorie-item">
+					<i class="fa-solid fa-mobile-screen-button"></i>
+					<p>Electronics</p>
+				</div>
+				<div class="categorie-item">
+					<i class="fa-solid fa-children"></i>
+					<p>Children</p>
+				</div>
+			</div>
+		</div>
+
+		<div class="new-products">
+			
+			<div class="n-p-content">
+				<div class="header-list-n-p">
+					<div></div>
+					<p>New products</p>
+					<div></div>
+				</div>
+				<div class="list-n-p">
+					<div class="item-list">
+						<div class="image">
+							<img src="./prod1.jpg" alt="">
+						</div>
+						<button>$9</button>
+					</div>
+					<div class="item-list">
+						<div class="image">
+							<img src="./prod2.jpeg" alt="">
+						</div>
+						<button>$19</button>
+					</div>
+					<div class="item-list">
+						<div class="image">
+							<img src="./prod3.jpeg" alt="">
+						</div>
+						<button>$29</button>
+					</div>
+					<div class="item-list">
+						<div class="image">
+							<img src="./prod4.png" alt="">
+						</div>
+						<button>$26</button>
+					</div>
+					<div class="item-list">
+						<div class="image">
+							<img src="./prod5.png" alt="">
+						</div>
+						<button>$19</button>
+					</div>
+					<div class="item-list">
+						<div class="image">
+							<img src="./prod6.jpeg" alt="">
+						</div>
+						<button>$799</button>
+					</div>
+					<div class="item-list">
+						<div class="image">
+							<img src="./prod7.jpeg" alt="">
+						</div>
+						<button>$659</button>
+					</div>
+					<div class="item-list">
+						<div class="image">
+							<img src="./prod8.png" alt="">
+						</div>
+						<button>$429</button>
+					</div>
+					<div class="item-list">
+						<div class="image">
+							<img src="./prod9.png" alt="">
+						</div>
+						<button>$25</button>
+					</div>
+					<div class="item-list">
+						<div class="image">
+							<img src="./prod10.png" alt="">
+						</div>
+						<button>$39</button>
+					</div>
+
+				</div>
+				<div class="list-n-p-controls">
+					<i class="fa-solid fa-angles-left"></i>
+					<i class="fa-solid fa-angle-left"></i>
+					<div>1</div>
+					<div class="active">2</div>
+					<div>3</div>
+					<div>4</div>
+					<i class="fa-solid fa-angle-right"></i>
+					<i class="fa-solid fa-angles-right"></i>
+				</div>
+			</div>
+
+		</div>
+
+		<div class="classement-products">
+			<div class="left-section">
+				<div class="container-box">
+					<div class="image">
+						<img src="./pic-profile.jpg" alt="">
+					</div>
+					<p class="name">julia</p>
+					<p class="description">
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+					</p>
+				</div>
+			</div>
+			<div class="center-section">
+
+				<div class="content">
+					<div>
+						<p>summer <br>collection</p>
+						<span>starting at $10</span>
+						<br>
+						<button>shop now</button>
+					</div>
+				</div>
+				
+			</div>
+			<div class="right-section">
+				<p class="title">Our services</p>
+				<div class="list">
+					<div class="service">
+						<i class="fa-solid fa-truck"></i>
+						<p>Worldwide Delivery</p>
+					</div>
+					<div class="service">
+						<i class="fa-solid fa-phone"></i>
+						<p>Best Online Support</p>
+					</div>
+					<div class="service">
+						<i class="fa-solid fa-share"></i>
+						<p>Return Policy</p>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="footer">
+			<div class="section">
+				<p class="title">contact</p>
+				<p class="item"><i class="fa-solid fa-location-dot"></i>tunis,Tunisie</p>
+				<p class="item"><i class="fa-solid fa-phone"></i>+12345678978</p>
+				<p class="item"><i class="fa-regular fa-envelope"></i>example@gmail.com</p>
+			</div>
+			<div class="section">
+				<p class="title">popular categories</p>
+				<p class="item">Fashion</p>
+				<p class="item">Electronic</p>
+				<p class="item">Health</p>
+			</div>
+			<div class="section">
+				<p class="title">products</p>
+				<p class="item">Prices Drop</p>
+				<p class="item">New Products</p>
+				<p class="item">Best Sales</p>
+				<p class="item">Contact Us</p>
+				<p class="item">Sitemap</p>
+			</div>
+			<div class="section">
+				<p class="title">OUR COMPANY</p>
+				<p class="item">Delivery</p>
+				<p class="item">Legal Notice</p>
+				<p class="item">Terms and Conditions</p>
+				<p class="item">About Us</p>
+				<p class="item">Secure Payment</p>
+			</div>
+			<div class="section">
+				<p class="title">services</p>
+				<p class="item">Prices Drop</p>
+				<p class="item">New Products</p>
+				<p class="item">Best Sales</p>
+				<p class="item">Contact Us</p>
+				<p class="item">Sitemap</p>
+			</div>
+
+		</div>
+
+		<div class="footer-section">
+			Copyright
+			<i class="fa-regular fa-copyright"></i>
+			All Rights Reserved
+		</div>
+
+	</div>
+
+
+
+	<script type="text/javascript" src="./index.js"></script>
+
+
+</body>
+</html>
